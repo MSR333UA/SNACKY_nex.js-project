@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --primary-color: #fa0;
+}
+
+.hero-bg-image {
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_640.jpg?w=1155&h=1528");
+}
