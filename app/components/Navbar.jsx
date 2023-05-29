@@ -37,11 +37,11 @@ const Navbar = () => {
         <ul className="h-screen justify-end items-center md:h-auto md:flex">
           <li className="text-left p-3 md:mb-4 uppercase font-bold text-2xl md:text[18px] md:px-4 hover:text-[var(--primary-color)] cursor-pointer">
             <Link
-              href="https://en.wikipedia.org/wiki/Insects_as_food"
+              href="https://uk.wikipedia.org/wiki/%D0%92%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%BA%D0%B8"
               target="_blank"
               // onClick={() => setNavbar(!navbar)}
             >
-              Insects as Food
+              dumplings as Food
             </Link>
           </li>
 
