@@ -6,6 +6,12 @@
   --primary-color: #fa0;
 }
 
-.hero-bg-image {
-  background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_640.jpg?w=1155&h=1528");
+/* Hide scrollbar for Chrome,Safary and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
+
+.hero-bg-image {
+  background-image: url("https://xn--b1aqjenlka.xn--p1ai/img/recepty/2356/big.jpg?w=1155&h=1528");
+}
+/* ?w=1155&h=1528 */
