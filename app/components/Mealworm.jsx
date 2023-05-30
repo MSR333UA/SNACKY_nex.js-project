@@ -31,6 +31,7 @@ const Mealworm = () => {
                 "The Future of the Classic may Be behind Dumplings with Fish"
               </p>
             </div>
+
             <div>
               <Link
                 href="https://traditions.in.ua/kukhnia/tradytsiini-stravy/124-varenyky"
