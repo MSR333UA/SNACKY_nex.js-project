@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
@@ -8,10 +9,12 @@ const Featured = () => {
         <span className="font-bold text-1xl text-[#555]">
           SNACKY'S FEATURED PRODUCT
         </span>
-        <img
+        <Image
           className="w-[40%] ml-12 md:mx-auto py-8"
           src="https://cdn-icons-png.flaticon.com/256/8709/8709612.png"
           alt="dumplings"
+          width={500}
+          height={500}
         />
         <h1 className="text-[#555] text-2xl font-bold lg:text-3xl text-left ml-12 pt-8 md:text-center md:ml-0">
           Dumplings with Cherries Dessert

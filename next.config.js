@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["recepty.24tv.ua", "cdn-icons-png.flaticon.com"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

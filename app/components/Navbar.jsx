@@ -50,13 +50,13 @@ const Navbar = () => {
               href="#/ikea"
               // onClick={() => setNavbar(!navbar)}
             >
-              IKEA's Insect Burger
+              GalyaShop Dumplings
             </Link>
           </li>
 
           <li className="text-left p-3 md:mb-4 uppercase font-bold text-2xl md:text[18px] md:px-4 hover:text-[var(--primary-color)] cursor-pointer">
             <Link
-              href="https://www.jiminis.com/shop/lang/en/"
+              href="https://vitok.ua/ua/vareniki-galja-baluvana/"
               target="_blank"
               // onClick={() => setNavbar(!navbar)}
             >
