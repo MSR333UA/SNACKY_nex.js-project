@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -39,7 +40,7 @@ const Mealworm = () => {
               >
                 <button className="font-bold rounded inline-flex">
                   <span className="mr-2 text-1xl text-[#555] uppercase">
-                    read the article 'Українські традиції'
+                    read the article "Українські традиції"
                   </span>
                   <BsFillArrowRightCircleFill className="text-2xl" />
                 </button>

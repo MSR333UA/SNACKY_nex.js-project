@@ -7,7 +7,7 @@ const Featured = () => {
     <section className="grid grid-cols-1 md:grid-cols-10 md:gap-2 py-8">
       <div className="md:col-span-6 text-center py-5">
         <span className="font-bold text-1xl text-[#555]">
-          SNACKY'S FEATURED PRODUCT
+          SNACKY`S FEATURED PRODUCT
         </span>
         <Image
           className="w-[40%] ml-12 md:mx-auto py-8"
@@ -40,7 +40,9 @@ const Featured = () => {
 
       <div className="md:col-span-4 text-center py-5">
         <div className="flex items-center justify-center">
-          <img
+          <Image
+            width={500}
+            height={500}
             className="w-full py-14"
             src="https://cdn-icons-png.flaticon.com/256/7649/7649415.png"
             alt="dumplings with cherries"
